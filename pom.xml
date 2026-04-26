@@ -5,10 +5,10 @@
 
 	<groupId>fr.skytasul</groupId>
 	<artifactId>glowingentities</artifactId>
-	<version>1.4.10</version>
+	<version>1.4.11</version>
 
 	<name>GlowingEntities</name>
-	<description>A Spigot util to easily make entities glow.</description>
+	<description>A Spigot and Paper util to easily make entities glow.</description>
 	<url>https://github.com/SkytAsul/GlowingEntities</url>
 
 	<licenses>
@@ -48,10 +48,11 @@
 
 	<dependencies>
 		<dependency>
+			<!-- Need some classes from the Paper API but with Spigot fallback -->
 			<groupId>io.papermc.paper</groupId>
 			<artifactId>paper-api</artifactId>
 			<!-- No SNAPSHOT for maven central publishing -->
-			<version>1.17-R0.1-20210706.043534-75</version>
+			<version>26.1.2.build.5-alpha</version>
 			<scope>provided</scope>
 		</dependency>
 
